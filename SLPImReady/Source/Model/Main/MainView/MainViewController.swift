@@ -13,9 +13,15 @@ class MainViewController: BaseViewController {
         
     var datasource: DataSource!
     
+    lazy var collectionview = UICollectionView(frame: .zero, collectionViewLayout: <#T##UICollectionViewLayout#>)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        configureDataSource()
+    }
+    
+    func configureDataSource() {
     }
 
 
