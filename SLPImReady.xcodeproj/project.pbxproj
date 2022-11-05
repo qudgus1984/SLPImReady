@@ -26,6 +26,7 @@
 		2FAD76882914F66C00B02B8D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD76872914F66C00B02B8D /* RxCocoa */; };
 		2FAD768A2914F66C00B02B8D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2FAD76892914F66C00B02B8D /* RxSwift */; };
 		2FAD768F2914F69F00B02B8D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD768E2914F69F00B02B8D /* MainViewModel.swift */; };
+		2FDBFF572916ABD8003E34FE /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBFF562916ABD8003E34FE /* MainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		2FAD76722914F5CD00B02B8D /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		2FAD76812914F61E00B02B8D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2FAD768E2914F69F00B02B8D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		2FDBFF562916ABD8003E34FE /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 			children = (
 				2FAD76542914F5B600B02B8D /* MainViewController.swift */,
 				2FAD76812914F61E00B02B8D /* MainView.swift */,
+				2FDBFF562916ABD8003E34FE /* MainCollectionViewCell.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				2FAD767A2914F5CE00B02B8D /* UIViewController+.swift in Sources */,
 				2FAD768F2914F69F00B02B8D /* MainViewModel.swift in Sources */,
 				2FAD767D2914F5CE00B02B8D /* BaseTableViewCell.swift in Sources */,
+				2FDBFF572916ABD8003E34FE /* MainCollectionViewCell.swift in Sources */,
 				2FAD767E2914F5CE00B02B8D /* BaseCollectionViewCell.swift in Sources */,
 				2FAD76792914F5CE00B02B8D /* String+.swift in Sources */,
 				2FAD767C2914F5CE00B02B8D /* BaseViewController.swift in Sources */,
