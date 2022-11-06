@@ -7,14 +7,17 @@
 
 import UIKit
 import SnapKit
+import RxSwift
 
-class MainViewController: UIViewController {
+class MainViewController: BaseViewController {
 
     typealias DataSource = UICollectionViewDiffableDataSource<String, String>
     
     var datasource: DataSource!
-    
     let mainview = MainView()
+    let searchController = UISearchController(searchResultsController: nil)
+    let disposeBag = DisposeBag()
+    let viewModel = MainViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +26,19 @@ class MainViewController: UIViewController {
         mainview.collectionView.backgroundColor = .black
     }
     
+    
     override func loadView() {
         super.view = mainview
+    }
+    
+    override func configure() {
+        searchController.searchBar.placeholder = "검색할 키워드를 입력해주세요."
+        self.navigationItem.searchController = searchController
+        let appearence = UINavigationBarAppearance()
+        appearence.backgroundColor = .black
+        navigationItem.standardAppearance = appearence
+        navigationItem.scrollEdgeAppearance = appearence
+        navigationItem.hidesSearchBarWhenScrolling = false
     }
     
     func configureDatasource() {
@@ -46,6 +60,14 @@ class MainViewController: UIViewController {
         snapshot.appendItems(item)
         datasource.apply(snapshot)
     }
+    
+    func bind() {
+        
+    }
 }
+
+
+
+
 
  

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+enum APIKey {
+       static let searchURL = "https://api.unsplash.com/search/photos?query="
+       static let authorization = "Client-ID VHGvaopfHv4i758i89TNmydd9VZz3fPoeSOKEYi4zpo"
+}
+
+//https://api.unsplash.com/search/photos/?client_id=VHGvaopfHv4i758i89TNmydd9VZz3fPoeSOKEYi4zpo&query=apple
