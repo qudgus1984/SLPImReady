@@ -33,6 +33,7 @@
 		2FD6CF39291797C90044B23E /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 2FD6CF38291797C90044B23E /* RxMoya */; };
 		2FD6CF3B29179CCE0044B23E /* SearchPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6CF3A29179CCE0044B23E /* SearchPhotoService.swift */; };
 		2FD6CF3D29179EA10044B23E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6CF3C29179EA10044B23E /* APIService.swift */; };
+		2FD6CF422917B82F0044B23E /* MainSecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD6CF412917B82F0044B23E /* MainSecondCollectionViewCell.swift */; };
 		2FDBFF572916ABD8003E34FE /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBFF562916ABD8003E34FE /* MainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		2FD6CF2F291795690044B23E /* SearchPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhoto.swift; sourceTree = "<group>"; };
 		2FD6CF3A29179CCE0044B23E /* SearchPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoService.swift; sourceTree = "<group>"; };
 		2FD6CF3C29179EA10044B23E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		2FD6CF412917B82F0044B23E /* MainSecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSecondCollectionViewCell.swift; sourceTree = "<group>"; };
 		2FDBFF562916ABD8003E34FE /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,6 +235,7 @@
 				2FAD76542914F5B600B02B8D /* MainViewController.swift */,
 				2FAD76812914F61E00B02B8D /* MainView.swift */,
 				2FDBFF562916ABD8003E34FE /* MainCollectionViewCell.swift */,
+				2FD6CF412917B82F0044B23E /* MainSecondCollectionViewCell.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			files = (
 				2FAD76552914F5B600B02B8D /* MainViewController.swift in Sources */,
 				2FD6CF3B29179CCE0044B23E /* SearchPhotoService.swift in Sources */,
+				2FD6CF422917B82F0044B23E /* MainSecondCollectionViewCell.swift in Sources */,
 				2FAD76822914F61E00B02B8D /* MainView.swift in Sources */,
 				2FAD767B2914F5CE00B02B8D /* ReusableProtocol.swift in Sources */,
 				2FD6CF30291795690044B23E /* SearchPhoto.swift in Sources */,

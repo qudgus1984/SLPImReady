@@ -41,4 +41,5 @@ class MainView: BaseView {
         return UICollectionViewCompositionalLayout(section: section)
     }
     
+    
 }

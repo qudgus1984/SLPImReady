@@ -47,6 +47,11 @@ class MainViewController: BaseViewController {
             cell.label.text = itemIdentifier.description
             cell.backgroundColor = .tintColor
         })
+        
+        let cellSecondConfigure = UICollectionView.CellRegistration<MainSecondCollectionViewCell, String>.init(handler: { cell, indexPath, itemIdentifier in
+            cell.label.text = itemIdentifier.description
+            cell.backgroundColor = .tintColor
+        })
     
         datasource = UICollectionViewDiffableDataSource<String, String>(collectionView: mainview.collectionView, cellProvider: { collectionView, indexPath, itemIdentifier in
             collectionView.dequeueConfiguredReusableCell(using: cellConfigure, for: indexPath, item: itemIdentifier)
